@@ -2,6 +2,7 @@
 
 | | |
 |---|---|
+| **Live demo** | [Hugging Face Space](https://huggingface.co/spaces/24f2007692/audio-classifier-genai) (free Space; it may take a minute to wake if idle) |
 | **Task** | Classify 10 music genres from noisy 30-second mashup recordings |
 | **Data** | 1,000 clean stems expanded to 10,000 synthetic noisy training clips (ESC-50 noise); 3,020 noisy test clips |
 | **Models** | ResNet-50 (ImageNet weights) and Audio Spectrogram Transformer (AudioSet weights), fine-tuned on log-mel spectrograms; 60/40 AST/ResNet-50 ensemble with test-time augmentation |
